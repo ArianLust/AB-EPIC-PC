@@ -1,0 +1,186 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1981201561818521}
+  m_IsPrefabParent: 1
+--- !u!1 &1981201561818521
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4900125099522723}
+  - 114: {fileID: 114848805719820012}
+  - 65: {fileID: 65846200795961284}
+  - 114: {fileID: 114485970881129520}
+  - 114: {fileID: 114111023758299084}
+  - 114: {fileID: 114921614974529342}
+  - 54: {fileID: 54299272094210473}
+  m_Layer: 9
+  m_Name: CharacterControllerBattleGround
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4900125099522723
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1981201561818521}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114848805719820012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1981201561818521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3a746d7028d942fe2dcf8a71bfd2658, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_ReviveMePrefab: {fileID: 1227996125673317, guid: a84cd179d021e55458732e44591ae444, type: 2}
+  m_BattleMgr: {fileID: 0}
+  m_WasKnockedOut: 0
+  m_AlreadyPlaced: 0
+  m_AllowClick: 1
+  m_AllowDrag: 1
+  m_StartPositionY: 0
+  m_reviveClicked: 0
+  m_CommandGiven: 0
+  m_stunnedDuringAttack: 0
+  m_maxSpawnDelay: 0
+  m_minSpawnDelay: 0
+  m_ScrollingCombatTextPrefab: {fileID: 114637067149307272, guid: 44649c4bfcbfb2a42bc139a8a5f1079c, type: 2}
+  m_ScrollingCombatTextWithLabelPrefab: {fileID: 114645906679030516, guid: a6a382118d3546144b00e3a98f908001, type: 2}
+  m_CriticalAdditionalEffect: {fileID: 0}
+  m_ScorePopup: {fileID: 114742123892434950, guid: dad6c56eccb55d1489fc28c3dd56056c, type: 2}
+  m_CharacterSpeechBubblePrefab: {fileID: 114241093029535089, guid: e736a2609f2b80342ae4f7116eb5b68e, type: 2}
+  m_TapHoldTrigger: {fileID: 114111023758299084}
+  m_TweenMovement: {fileID: 114485970881129520}
+  m_CurrentPerkType: 0
+  m_AssetController: {fileID: 0}
+  m_BoxCollider: {fileID: 0}
+  m_IsWaitingForInput: 0
+  m_CachedTransform: {fileID: 0}
+  OffsetFromEnemyZ: -10
+  m_BirdFocusPosOffset: {x: 150, y: 0, z: 0}
+  m_RankUpEffect: {fileID: 0}
+  m_InitialStartPosOffset: {x: 0, y: 0, z: 0}
+  m_HealthBarPrefab: {fileID: 114496358409565414, guid: c4bd6331ee66bcc4892ae6b9de847eae, type: 2}
+  m_BossHealthBarPrefab: {fileID: 114898536113417624, guid: 8dc825c557dca82468a91a4be48eed2e, type: 2}
+  m_IsTapping: 0
+  m_ControlHUDPrefab: {fileID: 114134197918117262, guid: a65e06e5c30f23d4ba8e5b3bc9b222f1, type: 2}
+--- !u!65 &65846200795961284
+BoxCollider:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1981201561818521}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114485970881129520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1981201561818521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6f04afc464e62c2e6ad68af8cf7b0c8, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_StartTransform: {fileID: 0}
+  m_StartOffset: {x: 0, y: 0, z: 0}
+  m_EndTransform: {fileID: 0}
+  m_EndOffset: {x: 0, y: 0, z: 0}
+  m_Timing: 0
+  m_DurationInSeconds: 0
+  m_SpeedInUnitsSecond: 0
+  m_IsPlayOnStart: 0
+  m_IsLooping: 0
+  m_AnimationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  m_AnimationCurvesPerAxis: []
+--- !u!114 &114111023758299084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1981201561818521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d26aed2b3ab266d055ec73952abef10, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  TapStartThreshold: 0.8
+  TapEndThreshold: 0.1
+  m_MaxPosDistanceForTap: 50
+--- !u!114 &114921614974529342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1981201561818521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b6b5e581324f1f8b54c148144689f49, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_DebugMenuName: General
+  referenceScreenX: 1024
+  referenceScreenY: 768
+  xOffset: 100
+  xSize: 100
+  ySize: 20
+  ySpacing: 0
+--- !u!54 &54299272094210473
+Rigidbody:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1981201561818521}
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
