@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1312352025893992}
+  m_IsPrefabParent: 1
+--- !u!1 &1312352025893992
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4978910132523435}
+  m_Layer: 8
+  m_Name: MainHand_Harp_01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4978910132523435
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1312352025893992}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children:
+  - {fileID: 4810085847427422}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!1 &1785072399935708
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4810085847427422}
+  - 114: {fileID: 114430536215105728}
+  - 33: {fileID: 33294220678708164}
+  - 23: {fileID: 23023724235531925}
+  - 114: {fileID: 114683206035198565}
+  m_Layer: 8
+  m_Name: Body
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4810085847427422
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1785072399935708}
+  m_LocalRotation: {x: 0, y: 0, z: 0.21643962, w: 0.976296}
+  m_LocalPosition: {x: 0.59484863, y: -6.19368, z: -1}
+  m_LocalScale: {x: 0.85, y: 0.85, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -25}
+  m_Children: []
+  m_Father: {fileID: 4978910132523435}
+  m_RootOrder: 0
+--- !u!114 &114430536215105728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1785072399935708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d48729fbdfd8141a3e67e7892e4c673, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_SmoothMovesAtlas: {fileID: 11400000, guid: 8681a82f9eb28f540b197e1807bcc869, type: 2}
+  m_NguiAtlas: {fileID: 0}
+  m_AtlasType: 2
+  m_SpriteName: MainHand_Harp_01
+  m_Width: 108
+  m_Height: 118
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_XAlignment: 1
+  m_YAlignment: 1
+--- !u!33 &33294220678708164
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1785072399935708}
+  m_Mesh: {fileID: 0}
+--- !u!23 &23023724235531925
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1785072399935708}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: abcae396e2ecbc2479ba707d7d0c3e73, type: 2}
+  m_SubsetIndices: []
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedWireframeHidden: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!114 &114683206035198565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1785072399935708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90c56e1b206457eeaf2ce32964360cad, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:

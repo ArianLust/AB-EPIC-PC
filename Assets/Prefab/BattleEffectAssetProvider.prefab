@@ -1,0 +1,1864 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1905413674156760}
+  m_IsPrefabParent: 1
+--- !u!1 &1905413674156760
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4208008143799148}
+  - 114: {fileID: 114494240263560943}
+  m_Layer: 9
+  m_Name: BattleEffectAssetProvider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4208008143799148
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1905413674156760}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children:
+  - {fileID: 4966235594855495}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114494240263560943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1905413674156760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bb5db3c4e975ff84291fbc86a14fbd, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  PathAddition:
+  CachedInstancesRoot: {fileID: 4966235594855495}
+  BundleURLEditor:
+  SelfInitializing: 1
+  BundleMode: 1
+  InstantiateCopies: 1
+  EditorBundleVersion: 0
+  MaxAmountOfCachedObjects: 0
+  MinTimeForAssetUnload: 0
+  AssetInfos:
+  - NameId: CharacterFX_LevelUp
+    AssetLoadingType: 0
+    Path: Prefabs/4_Characters/0_Generic/FX/CharacterFX_LevelUp
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: CharacterFX_Loot_LuckyCoin
+    AssetLoadingType: 0
+    Path: Prefabs/4_Characters/0_Generic/FX/CharacterFX_Loot_LuckyCoin
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: CharacterFX_Loot_Mastery
+    AssetLoadingType: 0
+    Path: Prefabs/4_Characters/0_Generic/FX/CharacterFX_Loot_Mastery
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: CharacterFX_Loot_PigCoin
+    AssetLoadingType: 0
+    Path: Prefabs/4_Characters/0_Generic/FX/CharacterFX_Loot_PigCoin
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: CharacterFX_Loot_XP
+    AssetLoadingType: 0
+    Path: Prefabs/4_Characters/0_Generic/FX/CharacterFX_Loot_XP
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: CharacterFX_MasteryUp
+    AssetLoadingType: 0
+    Path: Prefabs/4_Characters/0_Generic/FX/CharacterFX_MasteryUp
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: ScreenFX_BatSwarm
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/9_ScreenEffects/ScreenFX_BatSwarm
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: ScreenFX_Curse
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/9_ScreenEffects/ScreenFX_Curse
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: ScreenFX_Darken_1-5s
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/9_ScreenEffects/ScreenFX_Darken_1-5s
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: ScreenFX_Darken_1s
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/9_ScreenEffects/ScreenFX_Darken_1s
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: ScreenFX_DemonicTransformation
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/9_ScreenEffects/ScreenFX_DemonicTransformation
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: ScreenFX_Flash_Dark_Long
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/9_ScreenEffects/ScreenFX_Flash_Dark_Long
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: ScreenFX_Flash_Red_Medium
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/9_ScreenEffects/ScreenFX_Flash_Red_Medium
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: ScreenFX_Flash_Red_Short
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/9_ScreenEffects/ScreenFX_Flash_Red_Short
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: ScreenFX_Flash_White_Long
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/9_ScreenEffects/ScreenFX_Flash_White_Long
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: ScreenFX_Flash_White_Medium
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/9_ScreenEffects/ScreenFX_Flash_White_Medium
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: ScreenFX_Flash_White_Short
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/9_ScreenEffects/ScreenFX_Flash_White_Short
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: ScreenFX_Rage
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/9_ScreenEffects/ScreenFX_Rage
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: ScreenFX_Redden_1s
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/9_ScreenEffects/ScreenFX_Redden_1s
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: ScreenFX_Whiten_1-5s
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/9_ScreenEffects/ScreenFX_Whiten_1-5s
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: ScreenFX_Whiten_1s
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/9_ScreenEffects/ScreenFX_Whiten_1s
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_BannerEffect_DrainLife
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/11_BannerEffects/SkillFX_BannerEffect_DrainLife
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_BannerEffect_EmblemOfApathy
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/11_BannerEffects/SkillFX_BannerEffect_EmblemOfApathy
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_BannerEffect_EmblemOfResilience
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/11_BannerEffects/SkillFX_BannerEffect_EmblemOfResilience
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_BannerEffect_EmblemOfResistance
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/11_BannerEffects/SkillFX_BannerEffect_EmblemOfResistance
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_BannerEffect_EmblemOfResurrection
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/11_BannerEffects/SkillFX_BannerEffect_EmblemOfResurrection
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_BannerEffect_EnfeeblingEmblem
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/11_BannerEffects/SkillFX_BannerEffect_EnfeeblingEmblem
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_BannerEffect_MagneticEmblem
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/11_BannerEffects/SkillFX_BannerEffect_MagneticEmblem
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_BannerEffect_MockingEmblem
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/11_BannerEffects/SkillFX_BannerEffect_MockingEmblem
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_BannerEffect_PurifyingEmblem
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/11_BannerEffects/SkillFX_BannerEffect_PurifyingEmblem
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_BannerEffect_RageShield
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/11_BannerEffects/SkillFX_BannerEffect_RageShield
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_BannerEffect_ShieldBlack
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/11_BannerEffects/SkillFX_BannerEffect_ShieldBlack
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_BannerEffect_ShieldBlue
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/11_BannerEffects/SkillFX_BannerEffect_ShieldBlue
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_BannerEffect_ShieldRed
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/11_BannerEffects/SkillFX_BannerEffect_ShieldRed
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_BannerEffect_ShieldWhite
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/11_BannerEffects/SkillFX_BannerEffect_ShieldWhite
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_BannerEffect_ShieldYellow
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/11_BannerEffects/SkillFX_BannerEffect_ShieldYellow
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_BannerEffect_Shroud
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/11_BannerEffects/SkillFX_BannerEffect_Shroud
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_BannerEffect_SoothingEmblem
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/11_BannerEffects/SkillFX_BannerEffect_SoothingEmblem
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_BannerEffect_SpikySpike
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/11_BannerEffects/SkillFX_BannerEffect_SpikySpike
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_BannerEffect_StunningEmblem
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/11_BannerEffects/SkillFX_BannerEffect_StunningEmblem
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_BannerEffect_ThornWall
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/11_BannerEffects/SkillFX_BannerEffect_ThornWall
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_BannerEffect_Timejump
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/11_BannerEffects/SkillFX_BannerEffect_Timejump
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_BannerEffect_VengefulEmblem
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/11_BannerEffects/SkillFX_BannerEffect_VengefulEmblem
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_BannerEffect_WeakenedHealing
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/11_BannerEffects/SkillFX_BannerEffect_WeakenedHealing
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_BannerEffekt_Set_08
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/11_BannerEffects/SkillFX_BannerEffekt_Set_08
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Blessing_AngryBomber
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/8_Blessings/SkillFX_Blessing_AngryBomber
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Blessing_AttackLink
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/8_Blessings/SkillFX_Blessing_AttackLink
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Blessing_CounterChance
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/8_Blessings/SkillFX_Blessing_CounterChance
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Blessing_CounterChance_Mirrored
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/8_Blessings/SkillFX_Blessing_CounterChance_Mirrored
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Blessing_CritChance
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/8_Blessings/SkillFX_Blessing_CritChance
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Blessing_CurseShield
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/8_Blessings/SkillFX_Blessing_CurseShield
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Blessing_DefensiveHealing
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/8_Blessings/SkillFX_Blessing_DefensiveHealing
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Blessing_DoubleXP
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/8_Blessings/SkillFX_Blessing_DoubleXP
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Blessing_EnergyShield
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/8_Blessings/SkillFX_Blessing_EnergyShield
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Blessing_GiantGrowth
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/8_Blessings/SkillFX_Blessing_GiantGrowth
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Blessing_HealingLink
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/8_Blessings/SkillFX_Blessing_HealingLink
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Blessing_HealOverTime
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/8_Blessings/SkillFX_Blessing_HealOverTime
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Blessing_HealthAndDamageBonus
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/8_Blessings/SkillFX_Blessing_HealthAndDamageBonus
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Blessing_HelpLink
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/8_Blessings/SkillFX_Blessing_HelpLink
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Blessing_HelpLink_Origin
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/8_Blessings/SkillFX_Blessing_HelpLink_Origin
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Blessing_HigherAttack_Strong
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/8_Blessings/SkillFX_Blessing_HigherAttack_Strong
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Blessing_HigherAttack_Weak
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/8_Blessings/SkillFX_Blessing_HigherAttack_Weak
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Blessing_HigherRageGeneration
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/8_Blessings/SkillFX_Blessing_HigherRageGeneration
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Blessing_IceBarrier
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/8_Blessings/SkillFX_Blessing_IceBarrier
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Blessing_MagicalConcealment
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/8_Blessings/SkillFX_Blessing_MagicalConcealment
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Blessing_MirrorImage
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/8_Blessings/SkillFX_Blessing_MirrorImage
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Blessing_OffensiveHealing
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/8_Blessings/SkillFX_Blessing_OffensiveHealing
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Blessing_ProtectionLink
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/8_Blessings/SkillFX_Blessing_ProtectionLink
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Blessing_RageAndEnergyShield
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/8_Blessings/SkillFX_Blessing_RageAndEnergyShield
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Blessing_ReductionShield
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/8_Blessings/SkillFX_Blessing_ReductionShield
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Blessing_Restock
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/8_Blessings/SkillFX_Blessing_Restock
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Blessing_Shield_Strong
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/8_Blessings/SkillFX_Blessing_Shield_Strong
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Blessing_Shield_Weak
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/8_Blessings/SkillFX_Blessing_Shield_Weak
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Blessing_ShockShield
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/8_Blessings/SkillFX_Blessing_ShockShield
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Blessing_Speed
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/8_Blessings/SkillFX_Blessing_Speed
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Blessing_ThornShield
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/8_Blessings/SkillFX_Blessing_ThornShield
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Charge_MissingHealth
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/3_Charges/SkillFX_Charge_MissingHealth
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Charge_MissingHealth_Inverse
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/3_Charges/SkillFX_Charge_MissingHealth_Inverse
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Charge_Rage
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/3_Charges/SkillFX_Charge_Rage
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Charge_Steaming
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/3_Charges/SkillFX_Charge_Steaming
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_CloudExplosion_Large
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/1_Generic/SkillFX_CloudExplosion_Large
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_CloudExplosion_Medium
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/1_Generic/SkillFX_CloudExplosion_Medium
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_CloudExplosion_Small
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/1_Generic/SkillFX_CloudExplosion_Small
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_CloudExplosion_VeryLarge
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/1_Generic/SkillFX_CloudExplosion_VeryLarge
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Curse_AdditionalDamage
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/7_Curses/SkillFX_Curse_AdditionalDamage
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Curse_BlockedHealing
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/7_Curses/SkillFX_Curse_BlockedHealing
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Curse_DamageDispenser
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/7_Curses/SkillFX_Curse_DamageDispenser
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Curse_DamageOverTime
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/7_Curses/SkillFX_Curse_DamageOverTime
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Curse_ForceTarget
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/7_Curses/SkillFX_Curse_ForceTarget
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Curse_Frozen
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/7_Curses/SkillFX_Curse_Frozen
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Curse_Goo
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/7_Curses/SkillFX_Curse_Goo
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Curse_HealAttacker
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/7_Curses/SkillFX_Curse_HealAttacker
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Curse_LifeLeech
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/7_Curses/SkillFX_Curse_LifeLeech
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Curse_LowerAttack_Strong
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/7_Curses/SkillFX_Curse_LowerAttack_Strong
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Curse_LowerAttack_Weak
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/7_Curses/SkillFX_Curse_LowerAttack_Weak
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Curse_LowerDefense
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/7_Curses/SkillFX_Curse_LowerDefense
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Curse_LowerDefense_Mirrored
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/7_Curses/SkillFX_Curse_LowerDefense_Mirrored
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Curse_RageSkillBlocked
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/7_Curses/SkillFX_Curse_RageSkillBlocked
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Curse_ReducedHealing
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/7_Curses/SkillFX_Curse_ReducedHealing
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Curse_StickyPumpkin
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/7_Curses/SkillFX_Curse_StickyPumpkin
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Curse_StickySlime
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/7_Curses/SkillFX_Curse_StickySlime
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Curse_StolenHealing
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/7_Curses/SkillFX_Curse_StolenHealing
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Curse_Stun
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/7_Curses/SkillFX_Curse_Stun
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Curse_Thorns
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/7_Curses/SkillFX_Curse_Thorns
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Curse_ToxicSmoke
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/7_Curses/SkillFX_Curse_ToxicSmoke
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Curse_Wetness
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/7_Curses/SkillFX_Curse_Wetness
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Generic_Aura_Blessing
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/1_Generic/SkillFX_Generic_Aura_Blessing
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Generic_Aura_Curse
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/1_Generic/SkillFX_Generic_Aura_Curse
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Generic_Aura_Focus
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/1_Generic/SkillFX_Generic_Aura_Focus
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Generic_Aura_Rage
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/1_Generic/SkillFX_Generic_Aura_Rage
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Generic_BodyAirflow_Strong
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/1_Generic/SkillFX_Generic_BodyAirflow_Strong
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Generic_BodyAirflow_Weak
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/1_Generic/SkillFX_Generic_BodyAirflow_Weak
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Generic_BodyAirstream_Large
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/1_Generic/SkillFX_Generic_BodyAirstream_Large
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Generic_BodyAirstream_Medium
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/1_Generic/SkillFX_Generic_BodyAirstream_Medium
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Generic_BodyAirstream_Small
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/1_Generic/SkillFX_Generic_BodyAirstream_Small
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Generic_BodyAirstream_Subtle
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/1_Generic/SkillFX_Generic_BodyAirstream_Subtle
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Generic_BonusXP
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/1_Generic/SkillFX_Generic_BonusXP
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Generic_Support_Elemental
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/1_Generic/SkillFX_Generic_Support_Elemental
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Generic_Support_Focus
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/1_Generic/SkillFX_Generic_Support_Focus
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Generic_Support_Force
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/1_Generic/SkillFX_Generic_Support_Force
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Generic_Support_Magic
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/1_Generic/SkillFX_Generic_Support_Magic
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Generic_Support_Warcry_Circular
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/1_Generic/SkillFX_Generic_Support_Warcry_Circular
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Generic_Support_Warcry_Frontal
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/1_Generic/SkillFX_Generic_Support_Warcry_Frontal
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Generic_Text
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/1_Generic/SkillFX_Generic_Text
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_GroundImpact_BurnedEarth
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/5_GroundImpacts/SkillFX_GroundImpact_BurnedEarth
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_GroundImpact_Dust_Large
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/5_GroundImpacts/SkillFX_GroundImpact_Dust_Large
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_GroundImpact_Dust_Medium
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/5_GroundImpacts/SkillFX_GroundImpact_Dust_Medium
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_GroundImpact_SandBlast_Strong
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/5_GroundImpacts/SkillFX_GroundImpact_SandBlast_Strong
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_GroundImpact_SandBlast_Strong_Inverse
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/5_GroundImpacts/SkillFX_GroundImpact_SandBlast_Strong_Inverse
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_GroundImpact_SandBlast_Strong_Mirrored
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/5_GroundImpacts/SkillFX_GroundImpact_SandBlast_Strong_Mirrored
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_GroundImpact_SandBlast_Weak
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/5_GroundImpacts/SkillFX_GroundImpact_SandBlast_Weak
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_GroundImpact_SandBlast_Weak_Mirrored
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/5_GroundImpacts/SkillFX_GroundImpact_SandBlast_Weak_Mirrored
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_GroundImpact_SandSwirl_Strong
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/5_GroundImpacts/SkillFX_GroundImpact_SandSwirl_Strong
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_GroundImpact_SandSwirl_Weak
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/5_GroundImpacts/SkillFX_GroundImpact_SandSwirl_Weak
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_GroundImpact_ShatteredEarth_Strong
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/5_GroundImpacts/SkillFX_GroundImpact_ShatteredEarth_Strong
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_GroundImpact_Stampede_Strong
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/5_GroundImpacts/SkillFX_GroundImpact_Stampede_Strong
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_GroundImpact_Stampede_Weak
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/5_GroundImpacts/SkillFX_GroundImpact_Stampede_Weak
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Hit_BowlingBall
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/4_Hits/SkillFX_Hit_BowlingBall
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Hit_Burned
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/4_Hits/SkillFX_Hit_Burned
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Hit_ChainAttack
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/4_Hits/SkillFX_Hit_ChainAttack
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Hit_Cleanse
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/4_Hits/SkillFX_Hit_Cleanse
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Hit_Critical
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/4_Hits/SkillFX_Hit_Critical
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Hit_Dodged
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/4_Hits/SkillFX_Hit_Dodged
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Hit_Double_Melee_Blow
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/4_Hits/SkillFX_Hit_Double_Melee_Blow
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Hit_Double_Melee_Smash
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/4_Hits/SkillFX_Hit_Double_Melee_Smash
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Hit_Double_Ranged_Explosive
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/4_Hits/SkillFX_Hit_Double_Ranged_Explosive
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Hit_Double_Ranged_Projectile
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/4_Hits/SkillFX_Hit_Double_Ranged_Projectile
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Hit_Flash
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/4_Hits/SkillFX_Hit_Flash
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Hit_Frozen
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/4_Hits/SkillFX_Hit_Frozen
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Hit_Heavy
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/4_Hits/SkillFX_Hit_Heavy
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Hit_HotIron
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/4_Hits/SkillFX_Hit_HotIron
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Hit_Immune
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/4_Hits/SkillFX_Hit_Immune
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SKillFX_Hit_Impact_Frontal
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/4_Hits/SKillFX_Hit_Impact_Frontal
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Hit_Impact_Top
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/4_Hits/SkillFX_Hit_Impact_Top
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Hit_Ironclad
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/4_Hits/SkillFX_Hit_Ironclad
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Hit_Missed
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/4_Hits/SkillFX_Hit_Missed
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Hit_NastyFog
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/4_Hits/SkillFX_Hit_NastyFog
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Hit_Pumpkin
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/4_Hits/SkillFX_Hit_Pumpkin
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Hit_Purge
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/4_Hits/SkillFX_Hit_Purge
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Hit_RocketSalvo
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/4_Hits/SkillFX_Hit_RocketSalvo
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Hit_RocketStrike
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/4_Hits/SkillFX_Hit_RocketStrike
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Hit_Single_Melee_Blow
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/4_Hits/SkillFX_Hit_Single_Melee_Blow
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Hit_Single_Melee_Smash
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/4_Hits/SkillFX_Hit_Single_Melee_Smash
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Hit_Single_Melee_Strike
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/4_Hits/SkillFX_Hit_Single_Melee_Strike
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Hit_Single_Ranged_Explosive
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/4_Hits/SkillFX_Hit_Single_Ranged_Explosive
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Hit_Single_Ranged_Projectile
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/4_Hits/SkillFX_Hit_Single_Ranged_Projectile
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Hit_Snowball
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/4_Hits/SkillFX_Hit_Snowball
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Hit_Stone
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/4_Hits/SkillFX_Hit_Stone
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Hit_Tickle
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/4_Hits/SkillFX_Hit_Tickle
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Hit_Triple_Melee_Blow
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/4_Hits/SkillFX_Hit_Triple_Melee_Blow
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Hit_Triple_Melee_Smash
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/4_Hits/SkillFX_Hit_Triple_Melee_Smash
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Hit_Triple_Melee_Strike
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/4_Hits/SkillFX_Hit_Triple_Melee_Strike
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Hit_Triple_Ranged_Explosive
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/4_Hits/SkillFX_Hit_Triple_Ranged_Explosive
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Hit_Triple_Ranged_Projectile
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/4_Hits/SkillFX_Hit_Triple_Ranged_Projectile
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Hit_Triple_Ranged_Projectile_FromAbove
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/4_Hits/SkillFX_Hit_Triple_Ranged_Projectile_FromAbove
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_PassiveAura_Immunity
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/10_PassiveAuras/SkillFX_PassiveAura_Immunity
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_PassiveAura_IncreasedHealing
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/10_PassiveAuras/SkillFX_PassiveAura_IncreasedHealing
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_PassiveAura_IncreasedHealth
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/10_PassiveAuras/SkillFX_PassiveAura_IncreasedHealth
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_PassiveAura_ReducedRage
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/10_PassiveAuras/SkillFX_PassiveAura_ReducedRage
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Spell_AcidRain
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/6_Spells/SkillFX_Spell_AcidRain
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Spell_Barf_Origin
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/6_Spells/SkillFX_Spell_Barf_Origin
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Spell_Barf_Target
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/6_Spells/SkillFX_Spell_Barf_Target
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Spell_BatSwarm
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/6_Spells/SkillFX_Spell_BatSwarm
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Spell_Bite
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/6_Spells/SkillFX_Spell_Bite
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Spell_BlackMagic
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/6_Spells/SkillFX_Spell_BlackMagic
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Spell_BlackStorm
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/6_Spells/SkillFX_Spell_BlackStorm
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Spell_Burp
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/6_Spells/SkillFX_Spell_Burp
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Spell_ChaosEmeralds
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/6_Spells/SkillFX_Spell_ChaosEmeralds
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Spell_CurseField
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/6_Spells/SkillFX_Spell_CurseField
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Spell_DancingSpark
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/6_Spells/SkillFX_Spell_DancingSpark
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Spell_DeadlyGrip
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/6_Spells/SkillFX_Spell_DeadlyGrip
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Spell_DemonicTransformation
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/6_Spells/SkillFX_Spell_DemonicTransformation
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Spell_Earthquake
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/6_Spells/SkillFX_Spell_Earthquake
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Spell_EggBombs
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/6_Spells/SkillFX_Spell_EggBombs
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Spell_ElementalSuperforce
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/6_Spells/SkillFX_Spell_ElementalSuperforce
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Spell_Explosion_Huge
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/6_Spells/SkillFX_Spell_Explosion_Huge
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Spell_Explosion_Large
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/6_Spells/SkillFX_Spell_Explosion_Large
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Spell_Fireblast
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/6_Spells/SkillFX_Spell_Fireblast
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Spell_FireRain
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/6_Spells/SkillFX_Spell_FireRain
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Spell_ForceTarget
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/6_Spells/SkillFX_Spell_ForceTarget
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Spell_FreeItems
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/6_Spells/SkillFX_Spell_FreeItems
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Spell_GooBomb
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/6_Spells/SkillFX_Spell_GooBomb
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Spell_GooBomb_Bottle
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/6_Spells/SkillFX_Spell_GooBomb_Bottle
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Spell_Heal_Strong
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/6_Spells/SkillFX_Spell_Heal_Strong
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Spell_Heal_Weak
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/6_Spells/SkillFX_Spell_Heal_Weak
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Spell_HealingRain
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/6_Spells/SkillFX_Spell_HealingRain
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Spell_HealingWaters
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/6_Spells/SkillFX_Spell_HealingWaters
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Spell_HolyGrenade
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/6_Spells/SkillFX_Spell_HolyGrenade
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Spell_Iceshards
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/6_Spells/SkillFX_Spell_Iceshards
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Spell_Lightning_Strong
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/6_Spells/SkillFX_Spell_Lightning_Strong
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Spell_Lightning_Strong_Area
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/6_Spells/SkillFX_Spell_Lightning_Strong_Area
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Spell_Lightning_Weak
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/6_Spells/SkillFX_Spell_Lightning_Weak
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Spell_LightningBall_Strong
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/6_Spells/SkillFX_Spell_LightningBall_Strong
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Spell_LightningBall_Weak
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/6_Spells/SkillFX_Spell_LightningBall_Weak
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Spell_LightningField_Air
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/6_Spells/SkillFX_Spell_LightningField_Air
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Spell_LightningField_Air_Pink
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/6_Spells/SkillFX_Spell_LightningField_Air_Pink
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Spell_LightningField_Ground
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/6_Spells/SkillFX_Spell_LightningField_Ground
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Spell_LightningStrike_Strong
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/6_Spells/SkillFX_Spell_LightningStrike_Strong
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Spell_LightningStrike_Weak
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/6_Spells/SkillFX_Spell_LightningStrike_Weak
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Spell_MightyEagleAttack
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/6_Spells/SkillFX_Spell_MightyEagleAttack
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Spell_MirrorImage
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/6_Spells/SkillFX_Spell_MirrorImage
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Spell_RainClouds
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/6_Spells/SkillFX_Spell_RainClouds
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Spell_Sacrifice
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/6_Spells/SkillFX_Spell_Sacrifice
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Spell_SandBlast_Origin
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/6_Spells/SkillFX_Spell_SandBlast_Origin
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Spell_SandBlast_Target
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/6_Spells/SkillFX_Spell_SandBlast_Target
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Spell_SandField
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/6_Spells/SkillFX_Spell_SandField
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Spell_ScaringSong
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/6_Spells/SkillFX_Spell_ScaringSong
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Spell_SharpLeaves
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/6_Spells/SkillFX_Spell_SharpLeaves
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Spell_SmokeExplosion
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/6_Spells/SkillFX_Spell_SmokeExplosion
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Spell_Snowfall
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/6_Spells/SkillFX_Spell_Snowfall
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Spell_SoothingSong
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/6_Spells/SkillFX_Spell_SoothingSong
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Spell_Speed
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/6_Spells/SkillFX_Spell_Speed
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Spell_StormClouds
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/6_Spells/SkillFX_Spell_StormClouds
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Spell_StormyRain
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/6_Spells/SkillFX_Spell_StormyRain
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SKillFX_Spell_SummoningPortal
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/6_Spells/SKillFX_Spell_SummoningPortal
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Spell_ToxicGas
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/6_Spells/SkillFX_Spell_ToxicGas
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Spell_WaterSplash
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/6_Spells/SkillFX_Spell_WaterSplash
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Spell_WindBlast
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/6_Spells/SkillFX_Spell_WindBlast
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_WeaponEffect_Blow_Medium
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/2_WeaponEffects/SkillFX_WeaponEffect_Blow_Medium
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_WeaponEffect_Blow_Small
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/2_WeaponEffects/SkillFX_WeaponEffect_Blow_Small
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_WeaponEffect_CastMagic_Medium
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/2_WeaponEffects/SkillFX_WeaponEffect_CastMagic_Medium
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_WeaponEffect_ExplodingArrow
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/2_WeaponEffects/SkillFX_WeaponEffect_ExplodingArrow
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_WeaponEffect_Fireblast
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/2_WeaponEffects/SkillFX_WeaponEffect_Fireblast
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_WeaponEffect_Focus_Medium
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/2_WeaponEffects/SkillFX_WeaponEffect_Focus_Medium
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_WeaponEffect_Heal
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/2_WeaponEffects/SkillFX_WeaponEffect_Heal
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_WeaponEffect_Lullaby
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/2_WeaponEffects/SkillFX_WeaponEffect_Lullaby
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_WeaponEffect_Spit_Triple
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/2_WeaponEffects/SkillFX_WeaponEffect_Spit_Triple
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_WeaponEffect_Strike_Medium
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/2_WeaponEffects/SkillFX_WeaponEffect_Strike_Medium
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_WeaponEffect_Strike_VeryLarge
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/2_WeaponEffects/SkillFX_WeaponEffect_Strike_VeryLarge
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Curse_Bleeding
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/7_Curses/SkillFX_Curse_Bleeding
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Blessing_RoseShield
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/8_Blessings/SkillFX_Blessing_RoseShield
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Hit_Roses
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/4_Hits/SkillFX_Hit_Roses
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Curse_Roses
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/7_Curses/SkillFX_Curse_Roses
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Hit_Tickle_Cupido
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/4_Hits/SkillFX_Hit_Tickle_Cupido
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Curse_Chocolate
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/7_Curses/SkillFX_Curse_Chocolate
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Spell_ChocolateClouds
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/6_Spells/SkillFX_Spell_ChocolateClouds
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Spell_ChocolateRain
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/6_Spells/SkillFX_Spell_ChocolateRain
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Blessing_Immunization
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/8_Blessings/SkillFX_Blessing_Immunization
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Hit_Roses_Porky
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/4_Hits/SkillFX_Hit_Roses_Porky
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: CharacterFX_Loot_Mastery_Adv
+    AssetLoadingType: 0
+    Path: Prefabs/4_Characters/0_Generic/FX/CharacterFX_Loot_Mastery_Adv
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: CharacterFX_Loot_XP_Adv
+    AssetLoadingType: 0
+    Path: Prefabs/4_Characters/0_Generic/FX/CharacterFX_Loot_XP_Adv
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: CharacterFX_Loot_PigCoin_Adv
+    AssetLoadingType: 0
+    Path: Prefabs/4_Characters/0_Generic/FX/CharacterFX_Loot_PigCoin_Adv
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Curse_Paint
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/7_Curses/SkillFX_Curse_Paint
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Hit_Egg
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/4_Hits/SkillFX_Hit_Egg
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Hit_Egg_Black
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/4_Hits/SkillFX_Hit_Egg_Black
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Hit_Egg_Blue
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/4_Hits/SkillFX_Hit_Egg_Blue
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Hit_Egg_Red
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/4_Hits/SkillFX_Hit_Egg_Red
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Hit_Egg_Yellow
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/4_Hits/SkillFX_Hit_Egg_Yellow
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Spell_EggShot
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/6_Spells/SkillFX_Spell_EggShot
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Spell_PaperPlanes
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/6_Spells/SkillFX_Spell_PaperPlanes
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Curse_Bugged
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/7_Curses/SkillFX_Curse_Bugged
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Curse_Spotlight
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/7_Curses/SkillFX_Curse_Spotlight
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Spell_Powder
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/6_Spells/SkillFX_Spell_Powder
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_GroundImpact_SandBlast_Strong_Mirrored_Powder
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/5_GroundImpacts/SkillFX_GroundImpact_SandBlast_Strong_Mirrored_Powder
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Spell_Flashlight
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/6_Spells/SkillFX_Spell_Flashlight
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Blessing_Lunchbreak
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/8_Blessings/SkillFX_Blessing_Lunchbreak
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Curse_BlindingPowder
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/7_Curses/SkillFX_Curse_BlindingPowder
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Spell_BonusAttack
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/6_Spells/SkillFX_Spell_BonusAttack
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Spell_Confetti
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/6_Spells/SkillFX_Spell_Confetti
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Spell_ConfettiRain
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/6_Spells/SkillFX_Spell_ConfettiRain
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Spell_DodgeExercise
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/6_Spells/SkillFX_Spell_DodgeExercise
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Curse_TentacleGrab
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/7_Curses/SkillFX_Curse_TentacleGrab
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Spell_InkSpit
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/6_Spells/SkillFX_Spell_InkSpit
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Curse_Ink
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/7_Curses/SkillFX_Curse_Ink
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: ScreenFX_InkSplash
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/9_ScreenEffects/ScreenFX_InkSplash
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Hit_Leviathan
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/4_Hits/SkillFX_Hit_Leviathan
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Hit_OutOfTune
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/4_Hits/SkillFX_Hit_OutOfTune
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Hit_InnerRage
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/4_Hits/SkillFX_Hit_InnerRage
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Spell_BlockingCommando
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/6_Spells/SkillFX_Spell_BlockingCommando
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Spell_CurseField_Small
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/6_Spells/SkillFX_Spell_CurseField_Small
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Spell_Finisher
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/6_Spells/SkillFX_Spell_Finisher
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Blessing_Set_09
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/8_Blessings/SkillFX_Blessing_Set_09
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Blessing_Set_10
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/8_Blessings/SkillFX_Blessing_Set_10
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Spell_PrismaticShield
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/6_Spells/SkillFX_Spell_PrismaticShield
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  - NameId: SkillFX_Blessing_PrismaticShield
+    AssetLoadingType: 0
+    Path: Prefabs/5_Skills/8_Blessings/SkillFX_Blessing_PrismaticShield
+    AssetLink: {fileID: 0}
+    DeleteOnBuild: 0
+    Extension: prefab
+  m_Initialized: 0
+  m_LoadingProgress: 1
+--- !u!1 &1307664324903734
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4966235594855495}
+  m_Layer: 9
+  m_Name: CachedTransformRoot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4966235594855495
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1307664324903734}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children: []
+  m_Father: {fileID: 4208008143799148}
+  m_RootOrder: 0
