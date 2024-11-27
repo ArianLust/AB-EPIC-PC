@@ -1,7 +1,10 @@
 # Angry Birds Epic PC PORT
 A unity-standalone PC Port of the Mobile Game Angry Birds Epic, this version is based on Heroic2's 2.0.0 PC Source Code.
 
-Includes the full game with free In-App-Purchases and Working Arena (Hint they are all Bots) All Offline!
+> [!IMPORTANT]  
+> I am not affiliated with Rovio nor Chimera, all rights go to them I repeat I am not affiliated with Rovio nor Chimera!
+> If I should take this down please let me know.
+
 
 ## Fixed Stuff
 ### Game No longer freezes when not in focus
