@@ -13,10 +13,11 @@ The Game still keeps on going even if its not the focused Window
 The Game lets you interact with other windows and not hide itself immediatly.
 
 ## Planned Features
-### WebGL
+### WebGL 
 A Browser Version of the game fully playable inside of your Browser.
+> NOTE: I might not be able to do it, so please understand if this is not coming!
 ### Discord Rich Presence
 Shows what your currently doing inside of the Game.
 
 ## Download
-Current Version is `first build` downloadable [RIGHT HERE](https://github.com/ArianLust/AB-EPIC-PC/releases/latest)
+Current Version is `v1.0.0` downloadable [RIGHT HERE](https://github.com/ArianLust/AB-EPIC-PC/releases/latest)
