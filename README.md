@@ -4,6 +4,8 @@ A unity-standalone PC Port of the Mobile Game Angry Birds Epic, this version is 
 > [!IMPORTANT]  
 > I am not affiliated with Rovio nor Chimera, all rights go to them I repeat I am not affiliated with Rovio nor Chimera!
 > If I should take this down please let me know.
+> All rights are and will be reserved to Rovio in any way
+> I do not plan to earn even a single cent hence why the Game is run in an offline enviorment.
 
 
 ## Fixed Stuff
@@ -20,4 +22,4 @@ A Browser Version of the game fully playable inside of your Browser.
 Shows what your currently doing inside of the Game.
 
 ## Download
-Current Version is `first build` downloadable [RIGHT HERE](https://github.com/ArianLust/AB-EPIC-PC/releases/latest)
+Current Version is `v1.0.0` downloadable [RIGHT HERE](https://github.com/ArianLust/AB-EPIC-PC/releases/latest)
