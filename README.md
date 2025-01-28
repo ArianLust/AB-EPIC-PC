@@ -4,6 +4,8 @@ A unity-standalone PC Port of the Mobile Game Angry Birds Epic, this version is 
 > [!IMPORTANT]  
 > I am not affiliated with Rovio nor Chimera, all rights go to them I repeat I am not affiliated with Rovio nor Chimera!
 > If I should take this down please let me know.
+> All rights are and will be reserved to Rovio in any way
+> I do not plan to earn even a single cent hence why the Game is run in an offline enviorment.
 
 
 ## Fixed Stuff
